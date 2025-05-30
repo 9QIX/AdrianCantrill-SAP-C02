@@ -277,28 +277,6 @@ We're confident in the course value. If unsatisfied, contact us within 14 days f
 
 ---
 
-## ❓ Frequently Asked Questions
-
-### ⏰ When does the course start and finish?
-The course starts **now** and **never ends**! Completely self-paced - you decide your timeline.
-
-### 🔓 How long do I have access?
-**Lifetime access!** Unlimited access across all your devices for as long as you like.
-
-### 😟 What if I'm unhappy with the course?
-**14-day full refund guarantee** - no questions asked!
-
-### 🔄 Will this course be kept up to date?
-**Yes!** Single purchase fee with lifetime updates for the certification's lifetime.
-
-### 🧪 Are there hands-on labs?
-**Yes!** Called "DEMO lessons" - complex, real-world scenarios using fresh AWS accounts.
-
-### 📝 Does the course include captions?
-**Yes!** Professional captions by Rev.com - no auto-generated mistakes.
-
----
-
 ## 🚀 Get Started
 
 Ready to advance your AWS career and earn one of the most valuable certifications in cloud computing?
