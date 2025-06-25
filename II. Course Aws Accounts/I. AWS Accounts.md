@@ -19,7 +19,7 @@ An **AWS Account** is a **container** for:
 
 ## AWS Account Components
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### 1. **Account Name**
 

@@ -23,7 +23,7 @@ This lesson walks through how to **secure an AWS account's root user** by enabli
 
 ## MFA Factors Explained
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 | Factor Type        | Description                    |
 | ------------------ | ------------------------------ |

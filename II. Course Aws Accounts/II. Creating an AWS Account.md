@@ -6,7 +6,7 @@ This section guides learners through the **creation of AWS accounts** — a foun
 
 ## Why Create Multiple AWS Accounts?
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 - In real-world scenarios, organizations use **multiple AWS accounts** for isolation, billing separation, and security.
 - Instead of using **sandbox accounts** or **employer-provided accounts**, learners are encouraged to **create fresh AWS accounts** for training purposes.

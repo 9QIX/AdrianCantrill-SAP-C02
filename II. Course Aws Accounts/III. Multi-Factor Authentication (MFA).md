@@ -6,7 +6,7 @@ This lesson covers **Multi-Factor Authentication (MFA)**—a foundational securi
 
 ## Why MFA is Needed
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ### Single-Factor Vulnerability
 
