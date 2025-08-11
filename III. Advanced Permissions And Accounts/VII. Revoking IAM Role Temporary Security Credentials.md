@@ -49,6 +49,7 @@ To revoke access **only for the compromised credentials**, AWS allows you to:
 ## Example Policy Explanation
 
 Here’s an example of the kind of policy added inline to the role:
+git p
 
 ```json
 {
