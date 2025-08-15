@@ -4,7 +4,7 @@ This guide covers the implementation of a shared services VPC using AWS Resource
 
 ## Overview
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 This demo implements a shared services VPC within an AWS organization structure containing multiple accounts:
 

@@ -5,7 +5,7 @@
 This part continues directly from **Part 1**, focusing on **how to invalidate stolen temporary AWS credentials** without disrupting legitimate workloads.
 It demonstrates:
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - The **impact of deleting or modifying an IAM role**.
 - The **"Revoke Active Sessions"** feature to invalidate compromised credentials.

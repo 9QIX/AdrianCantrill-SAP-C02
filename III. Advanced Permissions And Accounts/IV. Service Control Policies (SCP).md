@@ -8,7 +8,7 @@ If you're designing secure, multi-account AWS environments at scale, **understan
 
 ## Organizational Setup (Before SCP Implementation)
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### Accounts:
 
@@ -146,7 +146,7 @@ The **effective permissions** in an AWS account are the **overlap** between:
 
 ### Visual Representation
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 ### Important Cases
 

@@ -33,7 +33,7 @@ It uses a case study of **Julie (Admin)** delegating IAM tasks to **Bob** withou
 
 ## Delegation Use Case: Julie and Bob
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 1. **Julie** is the AWS account admin.
 2. She wants **Bob** to manage IAM users/groups/roles.

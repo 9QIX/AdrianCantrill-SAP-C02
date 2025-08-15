@@ -36,7 +36,7 @@ If you’ve ever **assumed a role**—whether via CLI, SDK, or Console UI—you�
 
 ### Visual
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - **Bob** is **not** in the role's trust policy → **Access denied**
 - **Julie** is in the trust policy → **AssumeRole call allowed**

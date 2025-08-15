@@ -45,7 +45,7 @@ With RAM:
 
 ## Availability Zone Naming Challenge
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 **Problem:**
 
@@ -89,7 +89,7 @@ With RAM:
 
 ## Example: Shared Services VPC Architecture
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 **Scenario:**
 

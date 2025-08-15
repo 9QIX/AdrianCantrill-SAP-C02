@@ -7,7 +7,7 @@ You will simulate an identity called **Bob** in the **Animals For Life Managemen
 
 **Buckets Involved:**
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 1. `petpics1` – Uses **Access Control Lists (ACLs)**
 2. `petpics2` – Uses a **Bucket Policy**

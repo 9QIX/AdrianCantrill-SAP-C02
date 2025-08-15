@@ -19,7 +19,7 @@ AWS evaluates permissions using several policy types and rules in a specific ord
 
 ## Step-by-Step Evaluation Flow (Same Account)
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 ### 1. Collect All Applicable Policies
 
@@ -73,7 +73,7 @@ The process always follows:
 
 ## Cross-Account Access Evaluation
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 When accessing a resource in another account, **two separate permission checks** must pass:
 

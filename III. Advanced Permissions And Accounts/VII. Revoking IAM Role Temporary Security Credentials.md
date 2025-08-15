@@ -20,7 +20,7 @@ All users assuming the same role get **identical permissions** from the attached
 
 ## Problem Scenario: Credential Leak
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 ### Scenario Setup
 
