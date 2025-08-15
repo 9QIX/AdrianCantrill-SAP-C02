@@ -13,7 +13,7 @@ You will:
 
 Scenario context:
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - The simulated environment belongs to **Animals for Life (A4L)**.
 - In reality, the organization has thousands of EC2 instances hosting cat, dog, and chicken image blogs.
