@@ -28,7 +28,7 @@ It highlights how `NotAction` and `StringNotEquals` can invert expected logic, m
 
 ## Line-by-Line Explanation (with comments)
 
-```jsonc
+```json
 {
   "Version": "2012-10-17", // AWS policy language version
   "Statement": [

@@ -11,6 +11,34 @@ This lesson covers how to read and interpret a more complex AWS IAM policy docum
 
 ## Step 1: Identifying Statements
 
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["s3:ListAllMyBuckets", "s3:GetBucketLocation"],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::cl-animals4life",
+      "Condition": {
+        "StringLike": {
+          "s3:prefix": ["", "home/", "home/${aws:username}/*"]
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:*",
+      "Resource": ["arn:aws:s3:::cl-animals4life/home/${aws:username}", "arn:aws:s3:::cl-animals4life/home/${aws:username}/*"]
+    }
+  ]
+}
+```
+
 - The policy document contains **three statements**:
   1. First statement – allows certain global S3 actions.
   2. Second statement – allows restricted bucket listing with conditions.

@@ -17,7 +17,7 @@ It uses a case study of **Julie (Admin)** delegating IAM tasks to **Bob** withou
 
 ### Visual Concept
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 - Imagine a list of permissions: some inside the boundary (effective) and some outside (ineffective).
 - If an action is not allowed by the boundary, it will not be granted, even if the identity policy says "Allow".

@@ -146,7 +146,7 @@ Outputs:
 
 ## Key Concepts from the Demo
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 1. **Access Control Methods**
 

@@ -30,7 +30,7 @@ This lesson walks through the analysis of a multi-statement AWS IAM policy, focu
 
 ## Line-by-Line Code Explanation (with inline comments)
 
-```jsonc
+```json
 {
   "Version": "2012-10-17", // Policy language version (AWS standard date)
   "Statement": [
