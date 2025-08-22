@@ -1,7 +1,5 @@
 # IAM Identity Center (Successor to AWS Single Sign-On)
 
-> **Terminology note:** The transcript’s “Samil/Samo” are transcription errors. They refer to **SAML 2.0**. AWS Single Sign‑On (SSO) has since been renamed **AWS IAM Identity Center**; the lesson uses “SSO.”
-
 ## What This Lesson Covers
 
 - **Goal:** Explain what **AWS Single Sign‑On (SSO)** does, why AWS now recommends it for **workforce identity federation**, and how it fits architecturally.
