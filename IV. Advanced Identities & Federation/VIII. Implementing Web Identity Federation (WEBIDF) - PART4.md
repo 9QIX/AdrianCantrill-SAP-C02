@@ -2,7 +2,7 @@
 
 ## What the app does
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 1. Static front‑end hosted on **S3**, served via **CloudFront**.
 2. User signs in with **Google** in the browser.

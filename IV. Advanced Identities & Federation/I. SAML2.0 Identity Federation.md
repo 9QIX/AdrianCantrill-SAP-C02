@@ -30,7 +30,7 @@ Do **not** choose SAML 2.0 if the exam scenario mentions **Google, Facebook, Twi
 
 ## Architecture: API/CLI (Application‑Initiated) Flow
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 > Think “backend service or custom enterprise app wants to call AWS APIs.”
 
@@ -67,7 +67,7 @@ Do **not** choose SAML 2.0 if the exam scenario mentions **Google, Facebook, Twi
 
 ## Architecture: Console (User‑Initiated) Flow
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 > Think “employee logs into the AWS Management Console using corporate credentials.”
 

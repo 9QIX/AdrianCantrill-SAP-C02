@@ -27,7 +27,7 @@ This stage provisions a managed **AWS Directory Service for Microsoft Active Dir
 
 ## Architectures
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 ### Components in this stage
 

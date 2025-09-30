@@ -139,7 +139,7 @@
 
 ## Quick Recap
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - Added a **Power Users** group, placed **Sally** in it, and assigned **PowerUserAccess** across all accounts.
 - Verified that Sally’s access expanded from **Billing** only to include **EC2** interactions under **PowerUserAccess**.

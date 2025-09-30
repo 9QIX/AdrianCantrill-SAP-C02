@@ -1,6 +1,6 @@
 # Using workspaces with an AWS Directory Service - PART1
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 ## What You’re Building
 

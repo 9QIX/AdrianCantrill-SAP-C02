@@ -23,7 +23,7 @@ Time/cost: Expect ~60 minutes for automated provisioning and 1–2 hours of hand
 
 ### High-Level Layout
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 - **Simulated On-Prem VPC**
 

@@ -33,7 +33,7 @@ This stage validates the environment created by the one-click CloudFormation sta
 
 ## Architectures
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 ### Stage-2 Topology (Simulated On-Prem Focus)
 

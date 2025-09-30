@@ -16,7 +16,7 @@ This summary distills the LearnCantrill.io SAP-C02 material on **AWS Directory S
 
 ## Architectures
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 ### Placement and Networking
 

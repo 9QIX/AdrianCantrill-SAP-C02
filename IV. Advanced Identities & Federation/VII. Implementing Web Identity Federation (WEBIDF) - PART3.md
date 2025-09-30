@@ -11,7 +11,7 @@ You are building a serverless browser app that:
 
 ## Stage 3 Objective
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 Create a **Cognito Identity Pool** that **trusts Google**. After a user signs in at Google, the app presents the Google token to the Identity Pool, which **assumes an IAM role** and returns **temporary AWS credentials** to the browser.
 

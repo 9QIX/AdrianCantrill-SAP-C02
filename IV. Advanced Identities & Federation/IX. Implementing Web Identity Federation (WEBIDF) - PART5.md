@@ -2,7 +2,7 @@
 
 ## Context and What You Built
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 Over Stages 1–4 you deployed a serverless, browser‑only application that:
 

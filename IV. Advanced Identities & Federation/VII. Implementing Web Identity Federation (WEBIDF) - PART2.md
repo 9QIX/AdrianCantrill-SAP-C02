@@ -2,7 +2,7 @@
 
 ## Series Context and Technologies
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 You are building a serverless browser app that:
 

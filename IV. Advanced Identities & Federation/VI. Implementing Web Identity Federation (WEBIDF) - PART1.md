@@ -15,7 +15,7 @@ A **static front‑end** (HTML/JS) hosted on **S3** and served via **CloudFront*
 
 ## End‑to‑End Flow (High Level)
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 1. User opens the **app** (HTML/JS) from **CloudFront** → **S3 app bucket**.
 2. App prompts **Google sign‑in**.
@@ -52,7 +52,7 @@ While it runs, review the architecture: the stack bootstraps your **app bucket**
 
 ## What the CloudFormation Stack Creates
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 - **S3 (App) Bucket** — Hosts the static web app files:
 

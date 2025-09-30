@@ -15,7 +15,7 @@ AD Connector is an **AWS Directory Service** mode that exposes **directory endpo
 
 ## Architectures
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 ### Typical Deployment
 

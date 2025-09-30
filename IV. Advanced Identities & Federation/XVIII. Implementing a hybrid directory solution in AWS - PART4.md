@@ -25,7 +25,7 @@ This stage integrates two independent Microsoft Active Directory (AD) environmen
 
 ## Architectures
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 ### Components used in this stage
 

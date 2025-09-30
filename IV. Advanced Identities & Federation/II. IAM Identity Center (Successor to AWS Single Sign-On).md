@@ -34,7 +34,7 @@ SSO supports several **identity sources**. After you pick one, the downstream SS
 
 ## Architectural View (High Level)
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - **Runs within an AWS account** but governs **all accounts** in your AWS Organization.
 - Relies on a single **identity source** (chosen from the list above) to provide the **authoritative users and groups**.

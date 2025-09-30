@@ -20,7 +20,7 @@ Keep them conceptually separate.
 
 ## Part 1 — User Pools
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 **What they do**
 
@@ -48,7 +48,7 @@ Keep them conceptually separate.
 
 ## Part 2 — Identity Pools (Federated Identities)
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 **Purpose**
 
@@ -75,7 +75,7 @@ Keep them conceptually separate.
 
 ## Architectures You Should Recognize
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 ### A) User Pools Only (JWTs for your app/API)
 

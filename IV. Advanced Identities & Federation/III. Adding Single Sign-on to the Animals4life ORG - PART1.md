@@ -13,7 +13,7 @@
 
 ## High‑Level Architecture
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - **AWS SSO** is configured in the **management account**.
 - The **SSO identity store** (in this demo, the **built‑in store**) holds users and groups.

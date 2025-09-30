@@ -27,7 +27,7 @@ WorkSpaces relies on the directory for:
 
 ## Networking Model
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 - Each WorkSpace **injects a network interface** into your **customer-managed VPC**.
 - **All non-management traffic** (to VPC resources, internet, or on-prem) flows through your VPC:
