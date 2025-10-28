@@ -1,24 +1,29 @@
 # Chapter IV: Advanced Identities & Federation - Summary
 
 ## Overview
+
 This chapter covers advanced identity and federation solutions in AWS, focusing on enterprise-scale identity management, authentication, and authorization patterns. Key topics include SAML federation, IAM Identity Center, Amazon Cognito, WorkSpaces, Directory Services, and AWS Control Tower.
 
 ## Key Services & Concepts
 
 ### 1. SAML 2.0 Identity Federation
+
 **Purpose**: Exchange external enterprise identity for temporary AWS credentials
 
 **When to Use**:
+
 - Enterprise SAML-compatible IdP exists
 - Large user base (>5,000 users)
 - Need centralized identity management
 - Single source of truth requirement
 
 **Architecture**:
+
 - **Application-initiated**: App → IdP → SAML assertion → STS → AWS credentials
 - **User-initiated**: User → IdP portal → Role selection → AWS Console access
 
 **Key Components**:
+
 - IAM SAML Provider
 - IAM Roles for SAML
 - AWS STS (AssumeRoleWithSAML)
@@ -27,29 +32,35 @@ This chapter covers advanced identity and federation solutions in AWS, focusing 
 **Session Duration**: Up to 12 hours
 
 ### 2. IAM Identity Center (AWS SSO)
+
 **Purpose**: Centralized workforce identity federation across multiple AWS accounts
 
 **Why Choose Over Direct SAML**:
+
 - Centralized control across accounts
 - Abstraction from protocol complexity
 - Reduced operational overhead
 - Broader scope (AWS + external apps)
 
 **Identity Sources Supported**:
+
 - Built-in identity store
 - AWS Managed Microsoft AD
 - On-premises Microsoft AD
 - External SAML 2.0 IdP
 
 **Manages**:
+
 - Access to all AWS accounts in organization
 - AWS Console and CLI v2 access
 - External business applications (Dropbox, Slack, Office 365)
 
 ### 3. Amazon Cognito
+
 **Two Components**:
 
 #### User Pools
+
 - Sign-up/sign-in functionality
 - Issues JWTs after authentication
 - Supports internal, social, and SAML identity sources
@@ -57,20 +68,24 @@ This chapter covers advanced identity and federation solutions in AWS, focusing 
 - **Does NOT grant AWS service access**
 
 #### Identity Pools (Federated Identities)
+
 - Exchanges identity tokens for temporary AWS credentials
 - Supports authenticated and unauthenticated identities
 - Uses IAM roles for access control
 - **Provides AWS credentials for service access**
 
 **Architecture Patterns**:
+
 - User Pools only (JWTs for app/API)
 - Identity Pools directly with external IdPs
 - Combined approach (simplified multi-IdP handling)
 
 ### 4. Amazon WorkSpaces
+
 **Purpose**: Managed virtual desktops (Windows/Linux) from AWS
 
 **Key Features**:
+
 - Requires AWS Directory Service for authentication
 - Network interfaces injected into customer VPC
 - Storage encryption via KMS
@@ -78,6 +93,7 @@ This chapter covers advanced identity and federation solutions in AWS, focusing 
 - Billing: Monthly or Hourly with auto-stop
 
 **Directory Integration**:
+
 - Simple AD (lowest cost, PoC)
 - AD Connector (proxy to on-prem AD)
 - AWS Managed Microsoft AD (full AD features)
@@ -87,6 +103,7 @@ This chapter covers advanced identity and federation solutions in AWS, focusing 
 ### 5. AWS Directory Service
 
 #### AWS Managed Microsoft AD
+
 - Native Microsoft AD as managed service
 - Deployed across multiple AZs
 - Supports trusts with on-premises AD
@@ -95,31 +112,37 @@ This chapter covers advanced identity and federation solutions in AWS, focusing 
 - Works independently of on-prem connectivity
 
 #### AD Connector
+
 - Proxy to on-premises AD
 - No directory data in AWS
 - Depends on on-prem connectivity
 - Cannot establish trusts
 
 #### Simple AD
+
 - Samba-based directory
 - Limited compatibility
 - Good for small labs/PoCs
 
 ### 6. AWS Control Tower
+
 **Purpose**: Orchestrated multi-account governance and setup
 
 **Key Components**:
+
 - **Landing Zone**: Governed multi-account foundation
 - **Guardrails**: Governance rules (Preventive via SCPs, Detective via Config)
 - **Account Factory**: Automated account provisioning
 - **Baseline Accounts**: Log Archive and Audit accounts
 
 **Organizational Structure**:
+
 - Management Account (hosts Control Tower)
 - Security OU (Log Archive + Audit accounts)
 - Custom OUs (workload accounts)
 
 **Services Orchestrated**:
+
 - AWS Organizations
 - IAM Identity Center
 - CloudFormation
@@ -131,20 +154,24 @@ This chapter covers advanced identity and federation solutions in AWS, focusing 
 ## Selection Guidelines for SAP-C02
 
 ### Workforce vs Customer Identity
+
 - **Workforce identities** → IAM Identity Center (SSO)
 - **Customer identities** → Amazon Cognito
 
 ### Federation Approach
+
 - **Enterprise SAML IdP** → SAML 2.0 or IAM Identity Center
 - **Social providers** → Cognito Identity Pools
 - **Web identity** → Cognito (NOT SAML)
 
 ### Directory Services
+
 - **Need trusts/schema extensions** → AWS Managed Microsoft AD
 - **Proxy to on-prem only** → AD Connector
 - **Small labs/PoCs** → Simple AD
 
 ### Multi-Account Governance
+
 - **Standardized setup** → AWS Control Tower
 - **Custom requirements** → Manual Organizations setup
 
@@ -171,21 +198,25 @@ This chapter covers advanced identity and federation solutions in AWS, focusing 
 ## Architecture Patterns
 
 ### Enterprise Identity Federation
+
 ```
 On-prem IdP → SAML Assertion → AWS STS → Temporary Credentials → AWS Services
 ```
 
 ### Multi-Account SSO
+
 ```
 Identity Source → IAM Identity Center → Multiple AWS Accounts → Console/CLI Access
 ```
 
 ### Customer Identity (Web/Mobile)
+
 ```
 User → Cognito User Pool → JWT → Identity Pool → AWS Credentials → AWS Services
 ```
 
 ### Hybrid Directory
+
 ```
 On-prem AD ←→ Trust ←→ AWS Managed Microsoft AD → WorkSpaces/EC2
 ```
